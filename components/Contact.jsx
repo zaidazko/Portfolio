@@ -9,8 +9,8 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   const services = [
-    {name: "Linkedin", image: "src/assets/icons/linkedin.png", link: "https://www.linkedin.com/in/zazkoul"},
-    {name: "Github", image: "src/assets/icons/github.png", link: "https://www.github.com/zaidazko"}
+    {name: "Linkedin", image: "public/assets/icons/linkedin.png", link: "https://www.linkedin.com/in/zazkoul"},
+    {name: "Github", image: "public/assets/icons/github.png", link: "https://www.github.com/zaidazko"}
   ]
 
 
@@ -64,7 +64,7 @@ const Contact = () => {
             <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" placeholder="Email" className="bg-white/60 text-black font-medium backdrop-blur-xl p-3 rounded-lg w-[90%]"/>
             <textarea value={message} onChange={(e) => setMessage(e.target.value)} type="text" placeholder="Message" className="bg-white/60 text-black font-medium backdrop-blur-xl p-3 rounded-lg h-[80%] w-[90%]"/>
             <button type="submit" className="flex gap-3 bg-white/60 rounded-lg p-3 text-md font-medium cursor-pointer">Send Message
-            <img className="h-5" src="src/assets/icons/send-icon.png"></img></button>
+            <img className="h-5" src="public/assets/icons/send-icon.png"></img></button>
           </form>
         </div>
     </div>

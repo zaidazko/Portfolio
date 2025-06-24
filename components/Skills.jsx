@@ -6,18 +6,18 @@ import ScrollFloat from '../src/blocks/TextAnimations/ScrollFloat/ScrollFloat';
 
 const Skills = () => {
   const skills = [
-    { name: "Javascript", logo: "src/assets/skill-icons/javascript.png", type: "Language"},
-    { name: "Python", logo: "src/assets/skill-icons/Python.png", type: "Language"},
-    { name: "C++", logo: "src/assets/skill-icons/c++.png", type: "Language"},
-    { name: "React", logo: "src/assets/skill-icons/react.png", type: "Framework"},
-    { name: "HTML", logo: "src/assets/skill-icons/html.png", type: "Markup Language"},
-    { name: "CSS", logo: "src/assets/skill-icons/css.png", type: "Style Sheet Language"},
-    { name: "Tailwind CSS", logo: "src/assets/skill-icons/tailwind.png", type: "CSS Framework"},
-    { name: "Node.js", logo: "src/assets/skill-icons/Node.png", type: "Backend"},
-    { name: "MongoDB", logo: "src/assets/skill-icons/MongoDB.png", type: "Database"},
-    { name: "Git", logo: "src/assets/skill-icons/Git.png", type: "DevOps"},
-    { name: "Vercel", logo: "src/assets/skill-icons/Vercel.png", type: "Deployment"},
-    { name: "Express.js", logo: "src/assets/skill-icons/express.png", type: "Node Framework"}
+    { name: "Javascript", logo: "public/assets/skill-icons/javascript.png", type: "Language"},
+    { name: "Python", logo: "public/assets/skill-icons/Python.png", type: "Language"},
+    { name: "C++", logo: "public/assets/skill-icons/c++.png", type: "Language"},
+    { name: "React", logo: "public/assets/skill-icons/react.png", type: "Framework"},
+    { name: "HTML", logo: "public/assets/skill-icons/html.png", type: "Markup Language"},
+    { name: "CSS", logo: "public/assets/skill-icons/css.png", type: "Style Sheet Language"},
+    { name: "Tailwind CSS", logo: "public/assets/skill-icons/tailwind.png", type: "CSS Framework"},
+    { name: "Node.js", logo: "public/assets/skill-icons/Node.png", type: "Backend"},
+    { name: "MongoDB", logo: "public/assets/skill-icons/MongoDB.png", type: "Database"},
+    { name: "Git", logo: "public/assets/skill-icons/Git.png", type: "DevOps"},
+    { name: "Vercel", logo: "public/assets/skill-icons/Vercel.png", type: "Deployment"},
+    { name: "Express.js", logo: "public/assets/skill-icons/express.png", type: "Node Framework"}
     
   ]
 
